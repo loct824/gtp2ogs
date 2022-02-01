@@ -501,7 +501,10 @@ class Bot {
         // Do this here so we only do it once, plus if there is a long delay between clock message and move message, we'll
         // subtract that missing time from what we tell the bot.
         //
+        console.log('debug 1');
         this.loadClock(state);
+        
+        console.log('debug 2');
 
         // Only relevent with persistent bots. Leave the setting on until we actually have requested a move.
         // Must be after loadClock() since loadClock() checks this.firstmove!
