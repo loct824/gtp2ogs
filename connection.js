@@ -13,6 +13,9 @@ let config;
 const { console } = require('./console');
 const { Game } = require('./game');
 
+
+console.log("Hello World!");
+
 /****************/
 /** Connection **/
 /****************/
