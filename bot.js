@@ -14,6 +14,8 @@ const { Pv } = require('./pv');
 const gtpCommandEndRegex = new RegExp("(\\r?\\n){2}$");
 const gtpCommandSplitRegex = new RegExp("(\\r?\\n){2}");
 
+config.DEBUG = true; /*debug*/
+
 /*********/
 /** Bot **/
 /*********/
